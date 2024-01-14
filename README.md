@@ -7,3 +7,5 @@ mission_and_objectives, tables_fields_and_primary_keys, table_relationships, bus
 PHP contains all of the PHP pages for this project.
 
 SQL contains all of the SQL scripts for this project. Running the script "build.sql" will build the full database to its initial base state.
+
+Credit for help on this project: Odile Clements, Karli Prather
