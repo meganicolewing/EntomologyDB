@@ -1,0 +1,1 @@
+DELETE FROM tags WHERE tags_tag = ?;

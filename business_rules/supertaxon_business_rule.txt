@@ -1,0 +1,55 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  Scientifically, all taxon have a supertaxon except the three domains. However, all entomological species fall under the phylum Arthropoda. So, it is our policy that we track the supertaxons of all taxons in our database except the taxon Arthropoda.
+
+Constraint: The Classifications.supertaxon field cannot be null, except for the singular record where the taxon is Arthropoda.
+
+Type:     Database Oriented:     X
+          Application Oriented   _ 
+
+Category: Field Specific:        X 
+          Relationship Specific: _ 
+
+Test On:  Insert:                X 
+          Delete:                _ 
+          Update:                X
+
+
+STRUCTURES AFFECTED
+
+Field Names: Classifications.taxon 
+
+Table Names: _
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type:           _ 
+                   Length:              _ 
+                   Character Support:   _ 
+
+Logical Elements:  Key Type:            _ 
+                   Key Structure:       _ 
+                   Uniqueness:          _ 
+                   Null Support:        X
+                   Values Entered By:   _ 
+                   Range of Values:     _ 
+                   Edit Rule:           _ 
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+
+    Deletion rule:              _
+    Type of participation:      _
+    Degree of participation:    _
+
+    
+ACTION TAKEN
+
+Changed null support to 'no nulls allowed' and created a Classifications record for arthropoda with a null supertaxon.
+
+
+NOTES: _
+

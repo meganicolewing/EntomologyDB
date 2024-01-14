@@ -1,0 +1,55 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  It is our policy that requests can only be requested for a sample if there 
+are more than 5 of the same species currently in inventory.
+
+Constraint: A request can only be made if there are greater than 5 of the same species in the inventory.
+
+Type:     Database Oriented:     _
+          Application Oriented   X 
+
+Category: Field Specific:        X
+          Relationship Specific: _ 
+
+Test On:  Insert:                _ 
+          Delete:                _ 
+          Update:                X
+
+
+STRUCTURES AFFECTED
+
+Field Names: Request.request_fulfilled
+
+Table Names: _
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type:           _ 
+                   Length:              _ 
+                   Character Support:   _ 
+
+Logical Elements:  Key Type:            _ 
+                   Key Structure:       _ 
+                   Uniqueness:          _ 
+                   Null Support:        _ 
+                   Values Entered By:   _ 
+                   Range of Values:     X
+                   Edit Rule:           _ 
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+
+    Deletion rule:              _
+    Type of participation:      _
+    Degree of participation:    _
+
+    
+ACTION TAKEN
+
+On an update to the request_fulfilled value of a Request record, deny the update if the associated sample has a false for in_inventory.
+
+
+NOTES: _

@@ -1,0 +1,1 @@
+DELETE FROM classifications WHERE classifications_taxon = ?;

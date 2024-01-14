@@ -1,0 +1,1 @@
+DELETE FROM requests WHERE enthusiast_id = ? AND sample_id = ? AND request_date = ?;

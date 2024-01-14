@@ -1,0 +1,11 @@
+Allow staff to add new entomological species to the database.
+Allow staff to update information on existing entomological species in the database.
+Allow non-staff users to view stored information on species.
+Allow staff to tag species to increase searchability by all users.
+Maintain complete list of the specimens in the archive collection.
+Allow researchers to view the list of specimens in the archive collection.
+Allow researchers to view what specimens are available for loan.
+Allow researchers to make requests for specimen.
+Provide info to staff to fulfill specimen requests.
+
+Comments: These are all good. Nice work!

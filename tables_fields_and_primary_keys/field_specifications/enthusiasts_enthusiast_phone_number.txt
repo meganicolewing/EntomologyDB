@@ -1,0 +1,60 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           enthusiast_phone_number
+Parent Table:         enthusiasts
+Alias(es):            _ 
+Specification Type:
+  Unique:  _ 
+  Generic: X
+  Replica: _ 
+Source Specification: enthusiasts
+Shared By:            _ 
+Description:          The phone number of a stored enthusiast.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            VARCHAR
+Length:               15
+Decimal Places:       N/A 
+Character Support:
+  Letters (A-Z):      _
+  Numbers (0-9):      X
+  Keyboard (.,/$#%):  X
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        X
+               Primary:    _ 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     X
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _
+               Unique:     X
+
+Null Support:  Nulls OK:   X 
+               No nulls:   _
+
+Values Entered By: User:   X
+                   System: _ 
+
+Required Value:    No:     X
+                   Yes:    _
+
+Range of Values:   All possible combinations of numbers & keyboard characters up to a length of 15.
+
+Edit Rule:
+  Enter now, edits allowed:       X
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+NOTES: _

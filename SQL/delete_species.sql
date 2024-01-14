@@ -1,0 +1,1 @@
+DELETE FROM species WHERE species_binomial_name = ? AND classifications_taxon = ?;

@@ -1,0 +1,54 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  To allow us to contact enthusiasts regarding requests & information, they must have an email and a full address. A phone number is not required.
+
+Constraint: An enthusiast will not be inserted into the database if they do not input an email and a full address when registering.
+
+Type:     Database Oriented:     _
+          Application Oriented:  X
+
+Category: Field Specific:        X
+          Relationship Specific: _ 
+
+Test On:  Insert:                X 
+          Delete:                _ 
+          Update:                _
+
+
+STRUCTURES AFFECTED
+
+Field Names: Enthusiasts.enthusiast_ID
+
+Table Names: _
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type:           _ 
+                   Length:              _ 
+                   Character Support:   _ 
+
+Logical Elements:  Key Type:            _ 
+                   Key Structure:       _ 
+                   Uniqueness:          X 
+                   Null Support:        _ 
+                   Values Entered By:   _ 
+                   Range of Values:     _
+                   Edit Rule:           _ 
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+
+    Deletion rule:              _
+    Type of participation:      _
+    Degree of participation:    _
+
+    
+ACTION TAKEN
+
+When an enthusiast is attempting to be inserted into the database, deny the insertion if an email and/or full address (city, region, ZIP, etc.) are not provided.
+
+
+NOTES: _

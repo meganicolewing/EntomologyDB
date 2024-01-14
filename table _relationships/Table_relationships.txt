@@ -1,0 +1,20 @@
+Taxon- Species: The relationship of Taxon to Species establishes what genus each species belongs to.
+
+Taxon- Supertaxon: The relationship of Taxon to Taxon establishes what taxon (e.g. family) each taxon (e.g. genus) belongs to.
+
+Request.enthusiastID - Enthusiast.enthusiastID:The relationship of enthusiast to request demonstrates which enthusiast made each request.
+
+Samples.sampleID - Requests.sampleID: The relationship of Samples to Request is to request clarifies which sample is being requested.
+
+Species.binomialName - Samples.binomialName: The relationship of Species (Binomial Name) and Sample is to establish that the Sample is of the same species.
+
+Species.taxon - Samples.taxon: The relationship of the Species and Samples tables in regards to taxon is to establish that the taxon of the Speices is 
+identical to the taxon of the Sample.
+
+Species.binomialName - Species_tags.binomialName: The relationship of Species (Binomial name) to Species Tags establishes which species each tag is applied to.
+
+Species.taxon - Species_tags.taxon: The relationhsip of Species (taxon) to Species Tags establishes which genus the species related to each tag belongs to. 
+This ensures that each species and genus combination is unique.
+
+Species_tags - tags: The relationship of Tags to Species Tags establishes which tags apply to each species.
+

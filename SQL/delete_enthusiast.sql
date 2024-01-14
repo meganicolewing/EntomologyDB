@@ -1,0 +1,1 @@
+DELETE FROM enthusiasts WHERE enthusiast_id = ?;

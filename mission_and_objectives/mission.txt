@@ -1,0 +1,7 @@
+The purpose of the Mid-America Entomological database is to maintain and provide 
+information about entomological species for individuals such as researchers, 
+landowners, and outdoor enthusiasts. We also aim to allow researchers to request 
+specimen samples and facilitate the staff in sending the samples.
+
+Comment: It's one of the primary ones, but responding to specimine requests is
+still an objective, and I wouldn't include it in your mission statement.

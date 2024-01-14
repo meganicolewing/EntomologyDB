@@ -1,0 +1,54 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  _ All coordinates must be a valid coordinate on Earth.
+
+Constraint: _ The coordinates must not have and invlaid special characters, and each value must be valid. This means the north-south value must 
+            be within -90 to 90 and the east-west value must be within -180 to 180.
+
+Type:     Database Oriented:     X 
+          Application Oriented   _ 
+
+Category: Field Specific:        X 
+          Relationship Specific: _ 
+
+Test On:  Insert:                X 
+          Delete:                _ 
+          Update:                X
+
+
+STRUCTURES AFFECTED
+
+Field Names: _ Samples.sorth_coordinates, samples.west_coordinates
+
+Table Names: _
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type:           X 
+                   Length:              _ 
+                   Character Support:   X 
+
+Logical Elements:  Key Type:            _ 
+                   Key Structure:       _ 
+                   Uniqueness:          _ 
+                   Null Support:        _ 
+                   Values Entered By:   _ 
+                   Range of Values:     _ 
+                   Edit Rule:           _ 
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+
+    Deletion rule:              _
+    Type of participation:      _
+    Degree of participation:    _
+
+    
+ACTION TAKEN
+Added check constraints to check that -90 < north_coordiantes < 90 and -180 < west_coordinate < 180
+
+
+NOTES: _

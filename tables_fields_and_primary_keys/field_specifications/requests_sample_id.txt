@@ -1,0 +1,60 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           sample_id 
+Parent Table:         requests 
+Alias(es):            none 
+Specification Type:
+  Unique:  _ 
+  Generic: _ 
+  Replica: X 
+Source Specification:  samples.sample_id
+Shared By:            samples
+Description:          A unique number to refer to each specimen sample in the collection
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            INT 
+Length:               defult 
+Decimal Places:       none  
+Character Support:
+  Letters (A-Z):      _ 
+  Numbers (0-9):      X 
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _ 
+               Primary:    X 
+               Foreign:    X 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  X 
+
+Uniqueness:    Non-unique: X 
+               Unique:     _ 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   X 
+
+Values Entered By: User:   X 
+                   System: _ 
+
+Required Value:    No:     _ 
+                   Yes:    X 
+
+Range of Values:   Values in the samples.sample_id field 
+
+Edit Rule:
+  Enter now, edits allowed:       _ 
+  Enter now, edits not allowed:   X 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+NOTES: _

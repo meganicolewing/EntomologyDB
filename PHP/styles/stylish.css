@@ -1,0 +1,91 @@
+ul {
+    list-style-type: none;
+    padding: 15px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    background-color: #9BDEAC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: black;
+    font: bold;
+  }
+li {
+  text-decoration: none;
+  float:left;
+  color: #474A2C;
+  padding-right:30px;
+
+}
+li a{
+  display: block;
+  padding: 8px;
+  color: #474A2C;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size:20px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+}
+
+th, tr, thead {
+  padding-right: 30px;
+}
+.striped tbody tr:nth-child(odd), .striped tbody tr.odd td{
+  background-color: #B4E7CE;
+  
+}
+.striped {
+  width: 100%;
+}
+
+.stripedL tbody tr:nth-child(odd), .stripedL tbody tr.odd td{
+  background-color: #B4E7CE;
+  
+}
+
+h2{
+  color: #59A96A;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+  color: #59A96A;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  color:#474A2C;
+}
+
+body{
+  background-color:white;
+
+}
+.btn-link {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: #0000EE;
+  padding: 0;
+  text-decoration: underline;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.headerIMG {
+  width: 1500px;
+  height: 300px;
+  object-fit: cover;
+}
+.buttonTD{
+  background-color:white;
+}
+/* Dark Brown: 474A2C
+   Light brown/green: 636940
+   Jade: 59A96A
+   Med Green: 9BDEAC
+   Light white/Green: B4E7CE*/

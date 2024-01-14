@@ -1,0 +1,78 @@
+Final Table List
+
+Name: Species
+    Type: Data
+    Description: Contains information on each entomological species that the archive has data on. This allows the smaples in the collection
+                 to be related to their larger species and allows users to view general information on each species.
+    Primary Key: binomial name, taxon
+    Fields:
+        Binomial name
+        Taxon (FK)
+        Photo 
+        DNA Barcode
+        
+Name: Samples
+    Type: Data
+    Description: Contains information on all the specimen that the archive currently holds in its collection. This allows staff to
+                 view the full list of their collection and potential requestors to view what specimen are available for loan.
+    Primary Key: sample id
+    Fields:
+        Sample id
+        Binomial name (FK)
+        Taxon (FK)
+        Length
+        Coordinates collected
+
+Name: Enthusiasts
+    Type: Data
+    Description: Address and contact information for all people who have requested bugs. This allows archive staff to send 
+                 samples to the appropriate address and allows them to contact a requestor in the case that a request must be denied.
+    Primary Key: enthusiast id
+    Fields:
+        Enthusiast id
+        Enthusiast first name
+        Enthusiast last name
+        Enthusiast street address
+        Enthusiast city
+        Enthusiast region
+        Enthusiast zipcode
+        Enthusiast country
+        Enthusiast email address (req.)
+        Enthusiast phone number (not req.)
+
+Name: Requests
+    Type: Linking
+    Description: The request from a user to the archive for a specimen held in the collection that is available for loan. 
+                 Request information allows archive staff to fulfill requests and keep a history of what requests have been fulfilled.
+    Primary Key: Enthusiast ID; sample id; request date
+    Fields:
+        Enthusiast id (FK)
+        Sample id (FK)
+        Request date
+        request fulfilled
+
+Name: Classifications
+    Type: validation table
+    Description: A taxonomic classification; such as kingdom, order, or genus; along with its superclass. 
+                 This allows species to have a fully defined taxonomic hierarchy.
+    Primary key: taxon
+    Fields:
+        Taxon
+        Supertaxon (FK)
+
+Name: Tags
+    Type: validation
+    Description: Additional descriptors related to species. These allow the species to have more descriptors, 
+                 allowing them to be more easily searched through.
+    Primary Key: tag
+    Fields:
+        Tag
+
+Name: Species Tags
+    Type: linking
+    Description: A descriptor applied to a species.These allow users to find a list of species that are all related to a specific descriptor or list of descriptors.
+    Primary Key: binomial name, taxon, tag
+    Fields:
+        Binomial name (FK)
+        taxon(FK)
+        tag

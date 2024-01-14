@@ -1,0 +1,1 @@
+DELETE FROM samples WHERE sample_id = ?;

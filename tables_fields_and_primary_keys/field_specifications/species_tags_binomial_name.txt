@@ -1,0 +1,60 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           binomial_name 
+Parent Table:         species_tags
+Alias(es):            
+Specification Type:
+  Unique:  _ 
+  Generic: _ 
+  Replica: X
+Source Specification: species_binomial_name 
+Shared By:            species, samples
+Description:          The scientific name of a species that, taken with the genus, is unique to that species.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            VARCHAR
+Length:               64
+Decimal Places:       none
+Character Support:
+  Letters (A-Z):      X 
+  Numbers (0-9):      _ 
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _ 
+               Primary:    X
+               Foreign:    X 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  X
+
+Uniqueness:    Non-unique: X 
+               Unique:     _ 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   X 
+
+Values Entered By: User:   X 
+                   System: _ 
+
+Required Value:    No:     _ 
+                   Yes:    X 
+
+Range of Values:   values in the species.binomial_name field
+
+Edit Rule:
+  Enter now, edits allowed:       X 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+NOTES: _

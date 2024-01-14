@@ -1,0 +1,60 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           _ binomial_name
+Parent Table:         _ species
+Alias(es):            _ none
+Specification Type:
+  Unique:  X
+  Generic: _ 
+  Replica: _ 
+Source Specification: _ 
+Shared By:            _ samples, species_tags
+Description:          _ This is the compound primary key for the species table. Unique identifier for species.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            _ VARCHAR
+Length:               _ 64
+Decimal Places:       _  none
+Character Support:
+  Letters (A-Z):      X
+  Numbers (0-9):      _ 
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _ 
+               Primary:    X 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  X 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     X 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   X 
+
+Values Entered By: User:   X 
+                   System: _ 
+
+Required Value:    No:     _ 
+                   Yes:    X 
+
+Range of Values:   _ Falls within the list of possible taxon for a species.
+
+Edit Rule:
+  Enter now, edits allowed:       X 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+NOTES: _

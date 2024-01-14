@@ -1,0 +1,61 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           _ sample_id
+Parent Table:         _ samples
+Alias(es):            _ none
+Specification Type:
+  Unique:  X 
+  Generic: _ 
+  Replica: _ 
+Source Specification: _ 
+Shared By:            _ requests
+Description:          _ this is the id given to each species entered
+     into the database that identifies each specimen individually.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            _ INTEGER
+Length:               _ default
+Decimal Places:       _  none
+Character Support:
+  Letters (A-Z):      _ 
+  Numbers (0-9):      X 
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _ 
+               Primary:    X 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     X 
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     X 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   X 
+
+Values Entered By: User:   _ 
+                   System: X 
+
+Required Value:    No:     _ 
+                   Yes:    X 
+
+Range of Values:   _ 
+
+Edit Rule:
+  Enter now, edits allowed:       _ 
+  Enter now, edits not allowed:   X 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+NOTES: _

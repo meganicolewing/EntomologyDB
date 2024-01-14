@@ -1,0 +1,61 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           _ binomial_name
+Parent Table:         _ samples
+Alias(es):none        _ 
+Specification Type:
+  Unique:  _ 
+  Generic: _ 
+  Replica: X 
+Source Specification: species.binomial_name 
+Shared By:            _ species_tags, samples, species
+Description:          _ The reference to the binomial name of the 
+    species as established in the species table.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            _ VARCHAR
+Length:               _ 64
+Decimal Places:       _  none
+Character Support:
+  Letters (A-Z):      X
+  Numbers (0-9):      _ 
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _ 
+               Primary:    _ 
+               Foreign:    X 
+               Alternate:  _ 
+
+Key Structure: Simple:     X 
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     X 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   X 
+
+Values Entered By: User:   X 
+                   System: _ 
+
+Required Value:    No:     _ 
+                   Yes:    X 
+
+Range of Values:   Any of the established binomial names.
+
+Edit Rule:
+  Enter now, edits allowed:       X 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+NOTES: _
